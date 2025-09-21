@@ -8,5 +8,11 @@
 }
 
 .project-date-thumbnail {
-  width: 26vw;
+  width: 25em;
+}
+
+@media (max-width: 768px) {
+  .project-container {
+    flex-direction: column;
+  }
 }

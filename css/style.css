@@ -123,10 +123,6 @@ a{
   margin: 0 auto;
 }
 
-
-
-
-
 .star-divider {
   border: none;
   display: flex;
@@ -162,8 +158,8 @@ a{
   text-decoration: none;
   color: rgba(53, 44, 50, 0.77);
 
-  margin: 1.5em 2em 0 2em;
-  font-size: 0.88em;
+  margin: 1.5em 1em 0 1em;
+  font-size: 0.7em;
   font-weight: 400;
   position: relative;
   display: inline-block;
@@ -187,9 +183,34 @@ a{
   margin: 1.5em 3em 1.5em 3em;
 }
 
+@media (max-width: 1200px) {
+  .content-container {
+    margin: 0 10%;
+  }
+  .content {
+    margin: 1em 2%;
+    padding: 1em 1.2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    margin: 0 5%;
+  }
+  .content {
+    margin: 1em 0;
+    padding: 0.7em 1em;
+  }
+   .nav-link, .nav-link:visited {
+    margin: 1.7em 0.5em 0 0.5em;
+    font-size: 0.55em;
+  }
+}
+
 
 .center-star{
   justify-self: center;
+  text-align: center;
   margin: 0 auto;
   color: rgba(255, 255, 255, 0.5);
 }

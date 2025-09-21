@@ -8,5 +8,24 @@
 
 .gallery-item{
   height: 25em;
+  width: auto;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 50px;
+
   padding: 2em;
+}
+
+.gallery-item img {
+  object-fit: cover;
+  max-width:fit-content;
+}
+
+@media (max-width: 768px){
+  .gallery-item{
+    width: 100%;
+    height: auto;
+    padding: 0.7em;
+    border-radius: 25px;
+  }
 }
