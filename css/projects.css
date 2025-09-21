@@ -1,0 +1,12 @@
+.project-container{
+  background-color: rgba(247, 251, 255, 0.2);
+  border-radius: 40px;
+  padding: 1em 1.8em;
+  margin: 2em 2em 3em 2em;
+  display: flex;
+  flex-direction: row;
+}
+
+.project-date-thumbnail {
+  width: 26vw;
+}
