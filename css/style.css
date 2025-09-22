@@ -100,6 +100,10 @@ h4{
   margin: 0 auto;
 }
 
+p{
+  margin: 0.8em;
+}
+
 a{
   text-decoration: none;
   font-weight: 450;
@@ -173,7 +177,7 @@ a{
 }
 
 .content-container{
-  margin: 0 18em 0 18em;
+  margin: 0 15em 0 15em;
 }
 
 .content{

@@ -2,17 +2,37 @@
   background-color: rgba(247, 251, 255, 0.2);
   border-radius: 40px;
   padding: 1em 1.8em;
-  margin: 2em 2em 3em 2em;
+  margin: 2em;
   display: flex;
   flex-direction: row;
 }
 
 .project-date-thumbnail {
-  width: 25em;
+  flex: 0 0 15em;
+  border-right: 2px solid  rgba(53, 44, 50, 0.4);
+  padding: 0 0.9em 0 0;
+}
+
+.project-content {
+  margin: 0.9em;
+  flex: 1;
+}
+
+.project-img {
+  width: 100%;
+  height:auto;
+  align-self: center;
+  border-radius: 15px;
 }
 
 @media (max-width: 768px) {
   .project-container {
     flex-direction: column;
+  }
+
+  .project-date-thumbnail{
+    border-right: none;
+    border-bottom: 2px solid rgba(53, 44, 50, 0.7);
+    padding: 0 0 0.9em 0;
   }
 }
