@@ -221,4 +221,9 @@ a{
 
 .centered-text{
   text-align: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  margin: 0.5em;
+  padding: 0;
 }
