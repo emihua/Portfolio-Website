@@ -114,6 +114,7 @@ a{
   width: 100%;
   align-content: center;
   margin: 0 auto;
+  padding: 0;
 }
 
 #nav-list {
@@ -125,6 +126,7 @@ a{
   font-weight: 400;
   list-style-type: none;
   margin: 0 auto;
+  padding: 0;
 }
 
 .star-divider {
@@ -178,6 +180,7 @@ a{
 
 .content-container{
   margin: 0 15em 0 15em;
+  justify-self: center;
 }
 
 .content{
