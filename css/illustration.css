@@ -1,8 +1,10 @@
 .gallery-container{
-  margin: background-color: rgba(247, 251, 255, 0.3);
+  background-color: rgba(247, 251, 255, 0.3);
   border-radius: 25px;
   padding: 1em 1.8em;
   margin: 1.5em 3em 1.5em 3em;
+  width: 80vw;
+  justify-self: center;
 }
 
 
@@ -14,13 +16,13 @@
 }
 
 .gallery-item{
-  height: 25em;
+  height: 22em;
   width: auto;
   overflow: hidden;
   object-fit: cover;
-  border-radius: 50px;
+  border-radius: 45px;
 
-  padding: 2em;
+  padding: 1.5em;
 }
 
 .gallery-item img {
